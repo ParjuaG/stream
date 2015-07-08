@@ -1,11 +1,17 @@
 {
+<<<<<<< HEAD
   "name": "chat_socketio",
   "version": "1.0.0",
   "description": "tiny chat socket.io example",
+=======
+  "name": "chat-con-socketio",
+  "version": "1.0.0",
+>>>>>>> e69475929292f24ad301ea54b1e7e5b964dba313
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+<<<<<<< HEAD
   "keywords": [
     "chat",
     "socket.io",
@@ -17,6 +23,21 @@
   "dependencies": {
     "express": "^4.12.4",
     "jade": "^1.9.2",
+=======
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ParjuaG/stream.git"
+  },
+  "author": "parjuag",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/ParjuaG/stream/issues"
+  },
+  "homepage": "https://github.com/ParjuaG/stream#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.13.1",
+>>>>>>> e69475929292f24ad301ea54b1e7e5b964dba313
     "socket.io": "^1.3.5"
   }
 }

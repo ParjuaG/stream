@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var express     = require('express')
 var socketio    = require('socket.io')
 var port        = 7000
@@ -24,3 +25,19 @@ io.sockets.on("connection", function(socket){
 })
 server.listen(port)
 console.log("Server Listening in ", port)
+=======
+// Importamos los paquetes requeridos
+var express		= require('express'), 
+	socket		= require('socket.io');
+
+var port = 7000;
+
+// Configuracion de la APP
+var app = express();
+var server = require('http').createServer(app);
+var io = socketio.listen(server);
+
+// Iniciamos el servidor
+server.listen(port);
+console.log("Servidor escuchando en el puerto: ", port);
+>>>>>>> e69475929292f24ad301ea54b1e7e5b964dba313
