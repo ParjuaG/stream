@@ -1,0 +1,20 @@
+doctype html
+html(lang="es")
+    head
+        meta(charset="UTF-8")
+        title Chat con Web Sockets
+        link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css")
+        link(rel="stylesheet", href="/static/estilo.css")
+    body
+        .app.container
+            .row.messages-container
+                ul.messages
+            .row
+                .col-md-2
+                    input.nameinput.form-control(type="text", value="Invitado")
+                .col-md-10
+                    input.messageinput.form-control(type="text", placeholder="Mensaje a enviar")
+                    input.channel(type="hidden", value="#{channel}")
+        script(src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js')
+        script(src='/socket.io/socket.io.js')
+        script(src='/static/main.js')

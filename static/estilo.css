@@ -1,0 +1,13 @@
+.app{
+    position: absolute;
+    bottom: 0px;
+    left: 5%;
+    margin-bottom: 20px;
+}
+
+.messages-container{
+    max-height: 300px;
+    border: 1px solid gray;
+    overflow: auto;
+    margin-bottom: 20px;
+}
